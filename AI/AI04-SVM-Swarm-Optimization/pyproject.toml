@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "svmswarm"
+version = "0.1.0"
+description = "GA / hybrid-PSO tuned RBF-SVM with feature selection on noisy high-dimensional binary classification (Iris + MADELON)"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.26",
+    "scikit-learn>=1.3",
+    "pandas>=2.0",
+    "matplotlib>=3.7",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
