@@ -1,0 +1,7 @@
+# Advance 阶段可选依赖（Basic 不需要）
+# scikit-learn 用于 G3 的特征模型（岭回归 / 随机森林 / HGB）
+scikit-learn>=1.3
+matplotlib>=3.7
+pyyaml>=6.0
+numpy>=1.24
+pandas>=2.0

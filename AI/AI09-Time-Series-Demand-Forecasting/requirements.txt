@@ -1,0 +1,8 @@
+# Basic 运行所需（从零实现基线，不强制额外库）
+numpy>=1.24
+pandas>=2.0
+pyyaml>=6.0
+matplotlib>=3.7   # 仅 02_baseline_demo 绘图用，缺失则跳过绘图
+
+# Advance 可选（见 advance/requirements.txt）
+# scikit-learn>=1.3

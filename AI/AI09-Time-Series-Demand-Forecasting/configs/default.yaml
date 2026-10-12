@@ -1,0 +1,23 @@
+# AI-9 默认配置（可被 examples 的 --config 覆盖）
+
+data:
+  sample: data/sample/bike_sample.csv     # 内置小样本，离线可跑
+  raw: data/raw/hour.csv                  # 可选：真实 UCI Bike Sharing hour.csv
+  value_col: cnt                          # 预测目标列
+
+split:
+  train_frac: 0.6
+  dev_frac: 0.2
+
+season:
+  lags: [24, 168]                         # 前一天 / 前一周同小时
+
+rolling:
+  window: 24                              # 过去 24 小时均值
+
+interval:
+  alphas: [0.2, 0.1]                      # 80% / 90% 名义覆盖
+  window: 168                             # 滚动残差窗口（小时）
+
+features:
+  lags: [1, 24, 168]                      # Advance 特征模型用的滞后

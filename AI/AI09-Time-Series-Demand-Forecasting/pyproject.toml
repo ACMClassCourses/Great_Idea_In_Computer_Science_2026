@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ts9"
+version = "0.1.0"
+description = "AI-9 时间序列需求预测：从强基线到可信区间（课程项目骨架）"
+requires-python = ">=3.9"
+dependencies = [
+    "numpy>=1.24",
+    "pandas>=2.0",
+    "pyyaml>=6.0",
+]
+
+[tool.setuptools]
+packages = ["ts9"]
+
+[tool.setuptools.package-dir]
+ts9 = "src/ts9"
