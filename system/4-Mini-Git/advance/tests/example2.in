@@ -1,0 +1,25 @@
+add README.md 2
+Mini Git
+A content-addressed repository
+add src/main.cpp 4
+#include <iostream>
+int main() {
+    return 0;
+}
+add src/utils/math.cpp 3
+int add(int a, int b) {
+    return a + b;
+}
+commit initial-project
+add README.md 3
+Mini Git
+A content-addressed repository
+Now with documentation
+add docs/guide.txt 4
+Getting Started
+1. Add files
+2. Commit a snapshot
+3. Read the log
+add src/utils/math.cpp 0
+commit update-documentation
+log

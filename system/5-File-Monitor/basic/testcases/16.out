@@ -1,0 +1,4 @@
+DELETE A.txt
+DELETE Makefile
+MODIFY a.b.c.d
+CREATE makefile

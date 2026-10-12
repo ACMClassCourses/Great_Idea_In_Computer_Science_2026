@@ -1,0 +1,49 @@
+add README.md 2
+Mini Git Demo
+Base version
+add src/main.cpp 3
+int main() {
+    return run();
+}
+add src/app.cpp 4
+int run() {
+    initialize();
+    return 0;
+}
+add config/default.conf 3
+theme=light
+language=en
+autosave=true
+commit base
+branch dev
+checkout dev
+add README.md 3
+Mini Git Demo
+Development version
+New features enabled
+add src/dev_tool.cpp 4
+void inspect() {
+    print_objects();
+    print_branches();
+}
+commit add-dev-tools
+branch experiment
+checkout experiment
+add experiments/notes.txt 5
+Experiment A
+Try a different index layout
+Record tree hashes
+Compare snapshots
+Keep the result
+commit record-experiment
+log
+checkout main
+add RELEASE.txt 4
+Mini Git
+Version 1
+Stable branch
+Ready to teach
+commit release-version
+log
+checkout dev
+log

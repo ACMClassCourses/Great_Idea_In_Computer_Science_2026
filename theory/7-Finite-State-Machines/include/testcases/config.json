@@ -1,0 +1,172 @@
+{
+    "Groups": [
+        {
+            "GroupID": 1,
+            "GroupName": "simple",
+            "GroupScore": 25,
+            "TestPoints": [
+                1,
+                2,
+                3,
+                4
+            ]
+        },
+        {
+            "GroupID": 2,
+            "GroupName": "complex",
+            "GroupScore": 35,
+            "TestPoints": [
+                5,
+                6,
+                7,
+                8,
+                9
+            ]
+        },
+        {
+            "GroupID": 3,
+            "GroupName": "large",
+            "GroupScore": 25,
+            "TestPoints": [
+                10,
+                11,
+                12
+            ]
+        },
+        {
+            "GroupID": 4,
+            "GroupName": "robust",
+            "GroupScore": 15,
+            "TestPoints": [
+                13,
+                14,
+                15
+            ]
+        }
+    ],
+    "Details": [
+        {
+            "ID": 1,
+            "Dependency": 0,
+            "TimeLimit": 2000,
+            "MemoryLimit": 268435456,
+            "DiskLimit": 0,
+            "ValgrindTestOn": false
+        },
+        {
+            "ID": 2,
+            "Dependency": 0,
+            "TimeLimit": 2000,
+            "MemoryLimit": 268435456,
+            "DiskLimit": 0,
+            "ValgrindTestOn": false
+        },
+        {
+            "ID": 3,
+            "Dependency": 0,
+            "TimeLimit": 2000,
+            "MemoryLimit": 268435456,
+            "DiskLimit": 0,
+            "ValgrindTestOn": false
+        },
+        {
+            "ID": 4,
+            "Dependency": 0,
+            "TimeLimit": 2000,
+            "MemoryLimit": 268435456,
+            "DiskLimit": 0,
+            "ValgrindTestOn": false
+        },
+        {
+            "ID": 5,
+            "Dependency": 0,
+            "TimeLimit": 2000,
+            "MemoryLimit": 268435456,
+            "DiskLimit": 0,
+            "ValgrindTestOn": false
+        },
+        {
+            "ID": 6,
+            "Dependency": 0,
+            "TimeLimit": 2000,
+            "MemoryLimit": 268435456,
+            "DiskLimit": 0,
+            "ValgrindTestOn": false
+        },
+        {
+            "ID": 7,
+            "Dependency": 0,
+            "TimeLimit": 2000,
+            "MemoryLimit": 268435456,
+            "DiskLimit": 0,
+            "ValgrindTestOn": false
+        },
+        {
+            "ID": 8,
+            "Dependency": 0,
+            "TimeLimit": 2000,
+            "MemoryLimit": 268435456,
+            "DiskLimit": 0,
+            "ValgrindTestOn": false
+        },
+        {
+            "ID": 9,
+            "Dependency": 0,
+            "TimeLimit": 2000,
+            "MemoryLimit": 268435456,
+            "DiskLimit": 0,
+            "ValgrindTestOn": false
+        },
+        {
+            "ID": 10,
+            "Dependency": 0,
+            "TimeLimit": 2000,
+            "MemoryLimit": 268435456,
+            "DiskLimit": 0,
+            "ValgrindTestOn": false
+        },
+        {
+            "ID": 11,
+            "Dependency": 0,
+            "TimeLimit": 2000,
+            "MemoryLimit": 268435456,
+            "DiskLimit": 0,
+            "ValgrindTestOn": false
+        },
+        {
+            "ID": 12,
+            "Dependency": 0,
+            "TimeLimit": 2000,
+            "MemoryLimit": 268435456,
+            "DiskLimit": 0,
+            "ValgrindTestOn": false
+        },
+        {
+            "ID": 13,
+            "Dependency": 0,
+            "TimeLimit": 2000,
+            "MemoryLimit": 268435456,
+            "DiskLimit": 0,
+            "ValgrindTestOn": false
+        },
+        {
+            "ID": 14,
+            "Dependency": 0,
+            "TimeLimit": 2000,
+            "MemoryLimit": 268435456,
+            "DiskLimit": 0,
+            "ValgrindTestOn": false
+        },
+        {
+            "ID": 15,
+            "Dependency": 0,
+            "TimeLimit": 2000,
+            "MemoryLimit": 268435456,
+            "DiskLimit": 0,
+            "ValgrindTestOn": false
+        }
+    ],
+    "CompileTimeLimit": 10000,
+    "SPJ": 0,
+    "Scorer": 0
+}

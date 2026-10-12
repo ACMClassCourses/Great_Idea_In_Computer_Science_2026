@@ -1,0 +1,16 @@
+/build
+/PROMPT.md
+/advance/build
+/advance_solution/build
+/advance/minigit
+/advance_solution
+/AGENTS.md
+/oj
+/CMakeLists.txt
+.DS_Store
+__pycache__/
+*.pyc
+*.o
+*.exe
+build/
+.test_build/
