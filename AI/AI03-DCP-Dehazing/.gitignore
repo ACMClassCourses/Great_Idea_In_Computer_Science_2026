@@ -1,0 +1,20 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# 前期文档与教师验收材料
+docs/
+outline.md
+tests/
+requirements-dev.txt
+
+# 本地测试图片，不随学生仓库分发
+examples/tiananmen.png
+examples/student_template.py
+
+# 演示脚本生成的输入、参考图和运行结果
+assets/input/
+assets/reference/
+outputs/*
+!outputs/.gitkeep
