@@ -1,0 +1,10 @@
+# 产物与缓存
+outputs/*.png
+outputs/*.json
+outputs/*.jsonl
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# 真实数据（可选，不入库）
+data/raw/
