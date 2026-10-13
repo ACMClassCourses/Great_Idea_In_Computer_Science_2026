@@ -1,0 +1,10 @@
+echo one > a.txt
+cat a.txt | cat
+cat a.txt | cat | cat
+echo two | tee b.txt | cat
+cat b.txt
+cat a.txt b.txt
+echo x y z | cat > out.txt
+cat out.txt
+cat < out.txt
+exit

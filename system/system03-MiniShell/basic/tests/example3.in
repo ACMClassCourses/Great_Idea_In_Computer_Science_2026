@@ -1,0 +1,8 @@
+echo one > a.txt
+touch a.txt
+cat a.txt
+echo two > a.txt
+cat a.txt
+touch a.txt
+cat a.txt
+exit
