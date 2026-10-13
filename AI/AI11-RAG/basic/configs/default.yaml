@@ -1,0 +1,30 @@
+# project11-RAG 默认配置（可被 examples 的 --config 覆盖）
+
+retrieval:
+  mode: sparse            # sparse(必做) | dense(可选) | hybrid(可选)
+  top_k: 5
+  chunk:
+    size: 400            # 定长切分的字符数
+    overlap: 80          # 滑动窗口重叠
+  bm25:
+    k1: 1.5
+    b: 0.75
+  dense:
+    model: sentence-transformers/all-MiniLM-L6-v2
+    enabled: false       # 可选增强，默认关闭以走纯 BM25
+  fusion:
+    rrf_k: 60            # Reciprocal Rank Fusion 常数
+    sparse_weight: 0.5
+    dense_weight: 0.5
+
+generation:
+  backend: openai         # openai | ollama | stub
+  model: gpt-4o-mini
+  base_url: https://api.openai.com/v1
+  api_key_env: OPENAI_API_KEY
+  temperature: 0.0
+  max_tokens: 512
+
+paths:
+  corpus: data/demo      # 默认自带小语料；可改成 data/raw
+  index: outputs/index.json
