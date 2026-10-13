@@ -1,0 +1,8 @@
+echo a | | cat
+echo a >
+cat <
+cat < a.txt < a.txt
+cd / | cat
+echo x > y | cat
+mkdir
+exit

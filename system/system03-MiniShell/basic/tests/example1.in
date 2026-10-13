@@ -1,0 +1,7 @@
+touch a.txt
+echo hello shell > a.txt
+touch a.txt
+cat a.txt
+ls
+pwd
+exit

@@ -1,0 +1,8 @@
+echo the quick brown fox > story.txt
+cat story.txt
+ls
+echo second line > story.txt
+cat story.txt
+touch story.txt
+cat story.txt
+exit

@@ -1,0 +1,17 @@
+mkdir docs
+mkdir docs/notes
+cd docs/notes
+pwd
+echo note > n.txt
+cd ..
+pwd
+cd ../docs
+pwd
+ls
+cd ./notes
+pwd
+cd ../..
+pwd
+cd ../../..
+pwd
+exit

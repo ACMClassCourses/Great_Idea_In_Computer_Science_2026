@@ -1,0 +1,7 @@
+touch a.txt
+touch ab.txt
+touch a1.txt
+touch a_1.txt
+touch a-1.txt
+ls
+exit
