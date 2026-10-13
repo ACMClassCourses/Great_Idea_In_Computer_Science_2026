@@ -1,0 +1,77 @@
+cabal-version:       3.4
+name:                cis194
+version:             0.1.0.0
+synopsis:            Initial project template from stack, using hspec and quickcheck
+description:         Please see README.md
+homepage:            http://github.com/laser/cis194#readme
+license:             MIT
+license-file:        LICENSE
+author:              Erin Swenson-Healey
+maintainer:          eswenson-healey@cj.com
+copyright:           2010 Author Here
+category:            Educational
+build-type:          Simple
+-- extra-source-files:
+
+
+library
+  hs-source-dirs:      src
+  exposed-modules:     Homework.Week01.Assignment
+                     , Homework.Week02.Assignment
+                     , Homework.Week02.Log
+                     , Homework.Week03.Assignment
+                     , Homework.Week04.Assignment
+                     , Homework.Week04.BST
+                     , Homework.Week05.Assignment
+                     , Homework.Week05.ExprT
+                     , Homework.Week05.Parser
+                     , Homework.Week06.Assignment
+                     , Homework.Week07.Assignment
+                     , Homework.Week08.Assignment
+                     , Homework.Week08.AParser
+                     , Homework.Week09.Assignment
+                     , Homework.Week09.AParser
+                     , Homework.Week10.Assignment
+                     , Homework.Week11.Assignment
+                     , Homework.Week11.Reference
+                     , Homework.Week11.Types
+  build-depends:       base >= 4.7 && < 5
+                     , MonadRandom
+                     , QuickCheck
+                     , aeson
+                     , bytestring
+                     , text
+                     , sqlite-simple
+                     , transformers
+  default-language:    Haskell2010
+
+test-suite cis194-test
+  type:                exitcode-stdio-1.0
+  hs-source-dirs:      test
+  main-is:             Spec.hs
+  other-modules:       Homework.Week01Spec
+                     , Homework.Week02Spec
+                     , Homework.Week03Spec
+                     , Homework.Week04Spec
+                     , Homework.Week05Spec
+                     , Homework.Week06Spec
+                     , Homework.Week07Spec
+                     , Homework.Week08Spec
+                     , Homework.Week09Spec
+                     , Homework.Week10Spec
+                     , Homework.Week11Spec
+  build-depends:       base
+                     , cis194
+                     , hspec
+                     , unordered-containers
+                     , time
+                     , QuickCheck
+                     , aeson
+                     , bytestring
+                     , text
+  ghc-options:         -threaded -rtsopts -with-rtsopts=-N
+  default-language:    Haskell2010
+
+source-repository head
+  type:     git
+  location: https://github.com/laser/cis-194-winter-2016
