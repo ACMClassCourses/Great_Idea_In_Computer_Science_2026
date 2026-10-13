@@ -1,0 +1,11 @@
+ls
+pwd
+touch zebra.txt
+touch alpha.txt
+touch middle.txt
+ls
+cat alpha.txt
+echo
+echo hello world
+echo a b c
+exit

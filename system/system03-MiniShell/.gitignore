@@ -1,0 +1,14 @@
+/build/
+/basic/build/
+/advance/build/
+/basic_solution/
+/advance_solution/
+/PROMPT.md
+/AGENT.md
+.DS_Store
+__pycache__/
+*.pyc
+*.o
+*.exe
+build/
+.test_build/

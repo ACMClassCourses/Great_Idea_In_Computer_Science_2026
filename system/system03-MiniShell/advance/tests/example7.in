@@ -1,0 +1,9 @@
+echo hello > a.txt
+cat missing.txt | cat
+cat a.txt | cat missing.txt | cat
+echo first | tee t.txt | cat missing.txt | tee u.txt
+cat a.txt
+ls
+echo second | tee v.txt
+cat v.txt
+exit

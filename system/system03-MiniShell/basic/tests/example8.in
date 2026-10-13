@@ -1,0 +1,10 @@
+echo first > log.txt
+cat log.txt
+touch log.txt
+cat log.txt
+echo second > log.txt
+cat log.txt
+ls
+pwd
+cat log.txt extra
+exit

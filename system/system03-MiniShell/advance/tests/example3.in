@@ -1,0 +1,14 @@
+mkdir a
+ls
+touch a.txt
+mkdir a.txt
+touch a
+ls
+cd a.txt
+cat a
+ls a
+mkdir a/b
+ls a
+cd a
+pwd
+exit

@@ -1,0 +1,11 @@
+mkdir docs
+cd docs
+echo hello minishell > a.txt
+cat < a.txt | tee b.txt | cat > c.txt
+cat c.txt
+cd ..
+pwd
+cat docs/a.txt
+cat docs/b.txt
+cat docs/c.txt
+exit

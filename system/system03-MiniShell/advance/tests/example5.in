@@ -1,0 +1,23 @@
+mkdir src
+mkdir src/core
+mkdir src/core/utils
+touch src/core/utils/helper.txt
+echo content > src/core/utils/helper.txt
+pwd
+ls
+ls src
+ls src/core
+ls src/core/utils
+cat /src/core/utils/helper.txt
+cd src/core
+cat utils/helper.txt
+cat ./utils/helper.txt
+cd utils
+pwd
+cat ../utils/helper.txt
+cd ../../..
+pwd
+cd /src
+pwd
+ls
+exit
