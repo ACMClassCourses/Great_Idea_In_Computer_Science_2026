@@ -1,0 +1,39 @@
+# Instructor-only reference implementations and answers
+/basic/answer/
+/basic_solution/
+/advance_soltion/
+/advance_solution/
+/advance/report_template.md
+
+# Local Codex/agent metadata
+/.agents/
+/.codex/
+
+# Superseded top-level prototype; students use basic/ and advance/.
+/src/
+/data/
+/requirements.txt
+
+# Raw datasets are generated or downloaded locally and can be large.
+# Students should commit their manifest and result files, not the image corpus.
+/basic/data/raw/
+/advance/data/raw/
+
+# Re-creatable CLIP feature cache
+/advance/features/
+*.npz
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Editor and operating-system files
+.DS_Store
+.idea/
+.vscode/
+*~

@@ -1,0 +1,15 @@
+/build/
+/build-*/
+__pycache__/
+*.pyc
+/PROMPT.md
+/old_version/
+/advance_solution/
+/AGENTS.md
+/oj
+/advance/tests/
+.DS_Store
+*.o
+*.exe
+build/
+.test_build/

@@ -1,0 +1,4 @@
+MODIFY .hidden
+DELETE Zebra.txt
+MODIFY apple.txt
+CREATE zebra.txt

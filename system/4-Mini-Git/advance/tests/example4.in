@@ -1,0 +1,104 @@
+add src/component01/module.txt 3
+component 01
+shared interface for component 01
+initial implementation 01
+add src/component02/module.txt 3
+component 02
+shared interface for component 02
+initial implementation 02
+add src/component03/module.txt 3
+component 03
+shared interface for component 03
+initial implementation 03
+add src/component04/module.txt 3
+component 04
+shared interface for component 04
+initial implementation 04
+add src/component05/module.txt 3
+component 05
+shared interface for component 05
+initial implementation 05
+add src/component06/module.txt 3
+component 06
+shared interface for component 06
+initial implementation 06
+add src/component07/module.txt 3
+component 07
+shared interface for component 07
+initial implementation 07
+add src/component08/module.txt 3
+component 08
+shared interface for component 08
+initial implementation 08
+add src/component09/module.txt 3
+component 09
+shared interface for component 09
+initial implementation 09
+add src/component10/module.txt 3
+component 10
+shared interface for component 10
+initial implementation 10
+commit create-components
+branch frontend
+branch docs
+add src/component01/module.txt 3
+component 01
+stable interface for component 01
+main branch implementation 01
+add src/component02/module.txt 3
+component 02
+stable interface for component 02
+main branch implementation 02
+add src/component03/module.txt 3
+component 03
+stable interface for component 03
+main branch implementation 03
+add src/component04/module.txt 3
+component 04
+stable interface for component 04
+main branch implementation 04
+commit stabilize-core
+checkout frontend
+add src/component06/view.txt 4
+view for component 06
+header section 06
+content section 06
+footer section 06
+add src/component07/view.txt 4
+view for component 07
+header section 07
+content section 07
+footer section 07
+add src/component08/view.txt 4
+view for component 08
+header section 08
+content section 08
+footer section 08
+add src/component09/view.txt 4
+view for component 09
+header section 09
+content section 09
+footer section 09
+add src/component10/view.txt 4
+view for component 10
+header section 10
+content section 10
+footer section 10
+commit build-frontend
+checkout docs
+add docs/chapter01.md 3
+Chapter 01
+How component 01 works
+Examples for component 01
+add docs/chapter02.md 3
+Chapter 02
+How component 02 works
+Examples for component 02
+add docs/chapter03.md 3
+Chapter 03
+How component 03 works
+Examples for component 03
+commit write-guides
+log
+checkout main
+log
