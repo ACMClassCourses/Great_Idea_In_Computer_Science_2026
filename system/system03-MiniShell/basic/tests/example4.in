@@ -1,0 +1,11 @@
+cat
+touch
+ls extra
+foo
+cat missing.txt
+touch a/b
+touch .
+touch ..
+echo hello >
+pwd
+exit

@@ -1,0 +1,15 @@
+mkdir d
+echo content | tee d/f.txt
+cat d/f.txt
+echo x | tee d
+echo y | tee nodir/f.txt
+mkdir d
+mkdir d/sub
+echo z | tee d/sub/g.txt
+cat d/sub/g.txt
+ls d
+ls d/sub
+cat
+echo
+pwd
+exit
