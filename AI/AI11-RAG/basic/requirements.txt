@@ -1,0 +1,9 @@
+# project11-RAG 依赖
+# Basic 必做路径（从零 BM25 + mock/API 生成）只需下面三行：
+numpy>=1.26
+pyyaml>=6.0
+openai>=1.0
+
+# —— 可选增强：稠密向量检索（TODO 3 / TODO 4）——
+# sentence-transformers>=2.3
+# faiss-cpu>=1.7

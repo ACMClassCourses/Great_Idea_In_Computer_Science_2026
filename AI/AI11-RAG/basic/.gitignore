@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+build/
+dist/
+
+# 实验产物（保留空目录占位）
+outputs/*
+!outputs/.gitkeep
+outputs/**/*.json
+outputs/**/*.npz
+outputs/**/*.csv
+outputs/**/*.md
+
+# 用户私有语料（不入库）
+data/raw/
+
+# 本地压缩包 / 临时文件
+*.zip
+.DS_Store
