@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 """
-DFA Simulator -- Project 17 (Finite State Machine to Regular Expression).
+DFA Simulator -- Theory 7 Basic (Finite State Machines).
 
 A deterministic finite automaton (DFA) over the binary alphabet {'0', '1'}
 is described in the input, followed by several binary strings ("words").
 For each word, decide whether the DFA accepts it.
 
-This is the general version of Experiments 1 & 2 in the project README:
+This is the general version of Experiments 1 & 2 in basic/README.md:
 there you hand-designed machines for specific jobs (divisible-by-3,
 ends-with-01); here the machine itself is part of the input.
 
