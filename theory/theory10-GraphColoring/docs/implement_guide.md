@@ -92,7 +92,7 @@ def dfs(v):                       # 准备给顶点 v 染色
 - **回溯时务必撤销染色**——这是回溯法最容易错的地方；
 - 参考规模：约 20 行。
 
-### `three_color_mrv(n, adj, stats, forward_check=False) -> list[int] | None`（任务三）
+### `three_color_mrv(n, adj, stats, forward_check=False) -> list[int] | None`（Advance C1）
 
 在任务二的基础上加两件事：
 
@@ -117,7 +117,7 @@ def dfs(v):                       # 准备给顶点 v 染色
 2. 任务一，先在纸上对五元环手动执行一遍交替染色；
 3. 任务二，用 `data/triangle.txt` 和 `data/k4.txt` 一正一反调试，跑 `check.py`；
 4. 在 `main.py gen` 生成的小图上观察 `stats["nodes"]` 随 n 增长；
-5. 任务三，先只做 MRV（`forward_check=False`），确认答案与任务二一致；再加前向检查；
+5. Advance C1，先只做 MRV（`forward_check=False`），确认答案与任务二一致；再加前向检查；
 6. 每一步都跑 `check.py`，不要攒到最后一起调。
 
 ## 6. 测试建议
@@ -126,7 +126,7 @@ def dfs(v):                       # 准备给顶点 v 染色
 
 - **任务一**：四元环可二染色；三角形不可。
 - **任务二**：三角形返回合法三染色（用 `is_valid_coloring` 验证）；K4 返回 `None`；`stats["nodes"] > 0`。
-- **任务三**：Petersen 图可三染色；Grötzsch 图（`mycielski4.txt`）返回 `None`——这个实例很重要，它说明"难"不一定有显而易见的局部理由；同一随机图上 MRV+前向检查的节点数应**显著小于**朴素回溯。
+- **Advance C1**：Petersen 图可三染色；Grötzsch 图（`mycielski4.txt`）返回 `None`——这个实例很重要，它说明"难"不一定有显而易见的局部理由；同一随机图上 MRV+前向检查的节点数应**显著小于**朴素回溯。
 
 调试时可观察的不变量：
 
