@@ -131,8 +131,8 @@ def main():
     p_solve = sub.add_parser("solve", help="求解一个图实例")
     p_solve.add_argument("--data", required=True, help="图文件路径")
     p_solve.add_argument("--two", action="store_true", help="二染色判定（任务一）")
-    p_solve.add_argument("--mrv", action="store_true", help="使用 MRV 启发式（任务三）")
-    p_solve.add_argument("--fc", action="store_true", help="开启前向检查（任务三）")
+    p_solve.add_argument("--mrv", action="store_true", help="使用 MRV 启发式（Advance C1）")
+    p_solve.add_argument("--fc", action="store_true", help="开启前向检查（Advance C1）")
 
     p_gen = sub.add_parser("gen", help="生成随机图实例")
     p_gen.add_argument("--n", type=int, required=True, help="顶点数")

@@ -58,7 +58,7 @@ def three_color_backtrack(n, adj, stats):
 
 
 def three_color_mrv(n, adj, stats, forward_check=False):
-    """任务三：MRV 启发式 + 可选的前向检查。
+    """Advance C1：MRV 启发式 + 可选的前向检查。
 
     与任务二的唯一区别是【选顶点的顺序】和【死路发现的时机】：
 
@@ -80,5 +80,5 @@ def three_color_mrv(n, adj, stats, forward_check=False):
 
     参考规模：约 35 行。
     """
-    # TODO: 任务三
-    raise NotImplementedError("任务三还没做：请先完成 solver.py 的 three_color_mrv，然后运行 python src/check.py")
+    # TODO: Advance C1
+    raise NotImplementedError("Advance C1还没做：请先完成 solver.py 的 three_color_mrv，然后运行 python src/check.py")

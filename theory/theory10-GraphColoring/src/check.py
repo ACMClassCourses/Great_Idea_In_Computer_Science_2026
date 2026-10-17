@@ -118,9 +118,9 @@ def check_backtrack():
     report(name, "pass")
 
 
-# ---------------------------------------------------------------- 任务三
+# ---------------------------------------------------------------- Advance C1
 def check_mrv():
-    name = "任务三：three_color_mrv 启发式与前向检查"
+    name = "Advance C1：three_color_mrv 启发式与前向检查"
     try:
         from solver import three_color_backtrack, three_color_mrv
     except NotImplementedError as e:
