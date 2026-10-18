@@ -9,7 +9,7 @@
 | Basic | 一周内约 10-20 小时 | easy | 解释神经元与训练循环，训练一个 MNIST 小网络 |
 | Advance | 完成 Basic 后再用六周 | medium | 理解卷积与参数共享，比较 MLP/CNN 并分析泛化 |
 
-Basic 可用 CPU，不要求手推反向传播或训练大模型。
+Basic 可用 CPU，无需训练大模型。MNIST 实验允许使用 PyTorch 自动求导；[OJ 3279](basic/materials/OJ-说明.md) 要求依据题面给出的公式实现两层 MLP 的反向传播和整批梯度下降，并输出最终参数、预测与平均交叉熵。
 
 ### Basic：用小型 MLP 完成一次分类
 
