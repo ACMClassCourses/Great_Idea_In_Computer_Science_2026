@@ -1,0 +1,12 @@
+miss 1
+miss 1 2
+miss 1 2 3
+miss 1 2 3 4
+hit 1 2 3 4
+hit 1 2 3 4
+miss 1 2 5 4
+hit 1 2 5 4
+hit 1 2 5 4
+miss 1 2 5 3
+miss 1 2 4 3
+miss 5 2 4 3

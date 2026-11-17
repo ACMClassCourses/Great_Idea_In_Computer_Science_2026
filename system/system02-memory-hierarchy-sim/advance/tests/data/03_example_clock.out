@@ -1,0 +1,7 @@
+miss 1
+miss 1 2
+miss 1 2 3
+hit 1 2 3
+miss 4 2 3
+hit 4 2 3
+miss 4 2 5

@@ -1,0 +1,30 @@
+miss 1
+miss 1 2
+miss 1 2 3
+miss 1 2 3 4
+miss 5 2 3 4
+hit 5 2 3 4
+miss 5 6 3 4
+hit 5 6 3 4
+miss 5 6 3 7
+hit 5 6 3 7
+miss 5 8 3 7
+hit 5 8 3 7
+miss 9 8 3 7
+hit 9 8 3 7
+miss 9 10 3 7
+hit 9 10 3 7
+miss 9 10 3 11
+hit 9 10 3 11
+miss 9 12 3 11
+hit 9 12 3 11
+miss 13 12 3 11
+hit 13 12 3 11
+miss 13 14 3 11
+hit 13 14 3 11
+miss 13 14 3 15
+hit 13 14 3 15
+miss 13 16 3 15
+hit 13 16 3 15
+miss 17 16 3 15
+hit 17 16 3 15
